@@ -1,0 +1,6 @@
+{
+  "kernel_mode": "precomputed",
+  "backend": "cutensornet_cpu",
+  "feature_dim": 4,
+  "shots": "2048"
+}

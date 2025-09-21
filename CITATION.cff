@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use these models, please cite the following paper:"
+type: software
+title: "QSVM AI Text Attribution Models"
+authors:
+  - family-names: "Kopanov"
+    given-names: "Kalin"
+    email: "kalin.kopanov@iict.bas.bg"
+    affiliation: "Institute of Information and Communication Technologies, Bulgarian Academy of Sciences"
+repository-code: "https://github.com/[your-username]/QSVM-AI-Text-Attribution"
+abstract: "Pre-trained Quantum Support Vector Machine models for AI-generated text attribution, trained on supercomputer infrastructure to distinguish between different large language models."
+keywords:
+  - "quantum machine learning"
+  - "text attribution" 
+  - "QSVM"
+  - "AI detection"
+license: MIT
+version: "1.0.0"
+date-released: "2025-01-15"
+preferred-citation:
+  type: article
+  title: "Scaling Quantum Support Vector Machines for AI-Generated Text Attribution: Dimensionality, Shots, and Linguistic Feature Insights"
+  authors:
+    - family-names: "Kopanov"
+      given-names: "Kalin"
+      email: "kalin.kopanov@iict.bas.bg"
+      affiliation: "Institute of Information and Communication Technologies, Bulgarian Academy of Sciences"
+  journal: "[Journal Name - to be updated when published]"
+  year: 2025
+  # doi: "[DOI - to be added when available]"
+  # url: "[Paper URL - to be added when published]"

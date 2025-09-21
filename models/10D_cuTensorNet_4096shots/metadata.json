@@ -1,0 +1,42 @@
+{
+  "tfidf_params": {
+    "max_features": 3000,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 5,
+    "max_df": 0.7,
+    "stop_words": "english",
+    "lowercase": true,
+    "strip_accents": "ascii"
+  },
+  "linguistic_feature_names": [
+    "lexical_avg_word_len",
+    "lexical_avg_sent_len",
+    "lexical_unique_ratio",
+    "lexical_vocab_richness",
+    "lexical_word_count",
+    "lexical_char_count",
+    "syntactic_noun_ratio",
+    "syntactic_verb_ratio",
+    "syntactic_adj_ratio",
+    "syntactic_adv_ratio",
+    "syntactic_punct_density",
+    "syntactic_complexity",
+    "stylistic_formality",
+    "stylistic_question_ratio",
+    "stylistic_exclaim_ratio",
+    "stylistic_capital_ratio",
+    "stylistic_contraction_ratio",
+    "stylistic_list_markers"
+  ],
+  "label_classes": [
+    "Gemma",
+    "Qwen"
+  ],
+  "feature_dim": 10,
+  "shots": "4096",
+  "training_samples": 4640,
+  "validation_samples": 1160
+}

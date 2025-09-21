@@ -1,0 +1,6 @@
+{
+  "kernel_mode": "internal",
+  "backend": "qiskit_statevector_deterministic",
+  "feature_dim": 10,
+  "shots": "deterministic"
+}
