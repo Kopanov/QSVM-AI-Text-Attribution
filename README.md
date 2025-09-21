@@ -15,8 +15,12 @@ This repository contains pre-trained Quantum Support Vector Machine (QSVM) model
 These models accompany the research paper:
 **"Scaling Quantum Support Vector Machines for AI-Generated Text Attribution: Dimensionality, Shots, and Linguistic Feature Insights"**
 
-*Author: Kalin Kopanov*  
+**Authors:** Kalin Kopanov, Tatiana Atanasova  
 *Institution: Institute of Information and Communication Technologies, Bulgarian Academy of Sciences*
+
+**Conference Presentation:**  
+📍 **ICAMCS 2025** - 5th International Conference on Applied Mathematics & Computer Science  
+🗓️ Venice, Italy, September 27-29, 2025
 
 ## 📊 Model Performance Highlights
 
@@ -265,5 +269,5 @@ We acknowledge the provided access to the e-infrastructure of the Centre for Adv
 The presented study is supported by the National Science Fund at the Ministry of Education and Science of Bulgaria, with Contract No КП-06-Н85/16.
 
 ---
-*Repository maintained by: Kalin Kopanov (kalin.kopanov@iict.bas.bg)*  
+*Repository maintained by: Kalin Kopanov (kalin.kopanov@iict.bas.bg), Tatiana Atanasova*  
 *Institution: Institute of Information and Communication Technologies, Bulgarian Academy of Sciences*
