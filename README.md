@@ -15,12 +15,12 @@ This repository contains pre-trained Quantum Support Vector Machine (QSVM) model
 These models accompany the research paper:
 **"Scaling Quantum Support Vector Machines for AI-Generated Text Attribution: Dimensionality, Shots, and Linguistic Feature Insights"**
 
-**Authors:** Kalin Kopanov, Tatiana Atanasova  
+**Authors:** Kalin Kopanov and Tatiana Atanasova  
 *Institution: Institute of Information and Communication Technologies, Bulgarian Academy of Sciences*
 
 **Conference Presentation:**  
-📍 **ICAMCS 2025** - 5th International Conference on Applied Mathematics & Computer Science  
-🗓️ Venice, Italy, September 27-29, 2025
+📍 **5th International Conference on Applied Mathematics & Computer Science (ICAMCS 2025)**
+🗓️ Venice, Italy, 27-29 September 2025
 
 ## 📊 Model Performance Highlights
 
@@ -166,16 +166,15 @@ text_sample = ["Your AI-generated text here..."]
 
 - **Training Data**: 5,800 total samples (4,640 train / 1,160 validation)
 - **Text Sources**: Qwen 2.5-32B-Instruct vs Gemma 3-27B-IT
-- **Computational Resources**: HEMUS supercomputer (A100 GPUs, 128-core CPUs)
-- **Training Time**: 44-216 hours per model (parallel CV execution)
-- **Memory Requirements**: 10-55 GB peak usage (dimension-dependent)
+- **Computational Resources**: HEMUS supercomputer
+- **Training Time**: about 90 hours (with CV execution)
 
 ## 🎯 Key Scientific Contributions
 
 1. **Scaling Analysis**: Performance vs dimensionality in quantum feature spaces
 2. **Noise Characterization**: Quantum-noiseless vs measurement-noise effects  
 3. **Feature Engineering**: Linguistic feature importance in quantum kernels
-4. **Computational Insights**: Parallel quantum ML training strategies
+4. **Computational Insights**: Sequential and parallel quantum ML training strategies
 
 ## 📚 Citation
 
@@ -184,8 +183,8 @@ If you use these models in your research, please cite our paper:
 ```bibtex
 @article{kopanov2025scaling,
   title={Scaling Quantum Support Vector Machines for AI-Generated Text Attribution: Dimensionality, Shots, and Linguistic Feature Insights},
-  author={Kopanov, Kalin},
-  journal={[Journal Name]},
+  author={Kalin Kopanov and Tatiana Atanasova},
+  journal={[ICAMCS 2025]},
   year={2025},
   doi={[DOI when available]}
 }
@@ -223,7 +222,7 @@ QSVM-AI-Text-Attribution/
 ### Basic Installation
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/QSVM-AI-Text-Attribution.git
+git clone https://github.com/Kopanov/QSVM-AI-Text-Attribution.git
 cd QSVM-AI-Text-Attribution
 
 # Install dependencies
@@ -269,5 +268,5 @@ We acknowledge the provided access to the e-infrastructure of the Centre for Adv
 The presented study is supported by the National Science Fund at the Ministry of Education and Science of Bulgaria, with Contract No КП-06-Н85/16.
 
 ---
-*Repository maintained by: Kalin Kopanov (kalin.kopanov@iict.bas.bg), Tatiana Atanasova*  
+*Repository maintained by: Kalin Kopanov (kalin.kopanov@iict.bas.bg), Tatiana Atanasova (tatiana.atanasova@iict.bas.bg)*  
 *Institution: Institute of Information and Communication Technologies, Bulgarian Academy of Sciences*
